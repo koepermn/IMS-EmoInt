@@ -3,7 +3,9 @@ This repository contains the IMS System submission for the WASSA-2017 Shared Tas
 
 
 **Requirements**:
+
 1] You need to have weka installed
+
 http://www.cs.waikato.ac.nz/ml/weka/
 
 2] We need Lemma and Part-of-Speech tags, these were obtained using the Tweet NLP 
