@@ -37,7 +37,7 @@ Then you need to to the following steps
   - For further processing we create one file containing all the predictions
 3) Create an Inputfile for weka
   - this can be done using the scripts/createarff.jar (fulll code scripts/createarff_java)
-  - Run java -jar createarff.jar <parsedFile> <inputfile w.Ratings> ratings/Ratings.csv.gz <CNN-LSTM output> 
+  - Run java -jar createarff.jar <parsedFile> <inputfile w.Ratings> ratings/Ratings.csv.gz <CNN-LSTM output>
 4) Run wekas Random Forest
  - scripts/run_RandomForest_eval-only.sh scripts/run_RandomForest_save-predictions.sh
  - To apply the script link to the folder from the training (arff) files (official_train_arff)
