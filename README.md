@@ -30,7 +30,7 @@ We provide a full pipeline for the example in the folder:
 run_through_example/anger_example/anger_plain.txt
 Note that you need to ajdust all the paths with respect to the required tools (TwitterNLP, weka, ...).
 Then you need to to the following steps
-1) _Parse the input file (see scripts/run_LemmaPOS.sh)_
+1) *Parse the input file (see scripts/run_LemmaPOS.sh)*
   - using a plain text file you can run scripts/run_LemmaPOS.sh
 2) Run the CNN-LSTM Regression model
   - The scripts trains one model per emotion for the given test file
