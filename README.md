@@ -8,6 +8,7 @@ This repository contains the IMS System submission for the WASSA-2017 Shared Tas
 http://www.cs.waikato.ac.nz/ml/weka/
 
 2] We use Keras with Thenao backend for our Regression feature
+
 https://keras.io/
 http://deeplearning.net/software/theano/
 
@@ -23,12 +24,13 @@ http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint
 
 
 -- Example Usage ---
+
 Aussming you want to use IMS to predict intensity prediction for a given input file.
 We provide a full pipeline for the example in the folder:
 run_through_example/anger_example/anger_plain.txt
 Note that you need to ajdust all the paths with respect to the required tools (TwitterNLP, weka, ...).
 Then you need to to the following steps
-1) Parse the input file (see scripts/run_LemmaPOS.sh)
+1) _Parse the input file (see scripts/run_LemmaPOS.sh)_
   - using a plain text file you can run scripts/run_LemmaPOS.sh
 2) Run the CNN-LSTM Regression model
   - The scripts trains one model per emotion for the given test file
