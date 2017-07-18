@@ -22,8 +22,9 @@ Download: http://www.cs.cmu.edu/~ark/TweetNLP/ (we used ark-tweet-nlp-0.3.2)
 4] Parts of the features were created by the Baseline System (**Affective Tweets**)
 https://github.com/felipebravom/AffectiveTweets
 
-5] The **extended ratings** (created by us) are available for download here (65MB):
+5] The **Automatically Extended Norms ** (created by us) are available for download here (65MB):
 http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint_norms.tar.gz
+this file contains exntendes resources of affective norms and emotion lexicons
 
 ## Example Usage:
 
@@ -57,4 +58,15 @@ Then you need to to the following steps <br />
  - To apply the script link to the folder from the training (arff) files (`official_train_arff/`)
    A full and more detailed example how to use our system can be seen in the `run_full.sh` script. 
 
-Contact: maximilian.koeper AT gmail.com
+## Citation info
+ +
+ +
+ +If you use the code or the created feature norms, please [cite our paper](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017)
+ 
+## Contact info
+Contact: maximilian.koeper A ims.uni-stuttgart.de
+[University Homepage](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/koepermn/index.en.html)
+[Project Homepage](http://www.ims.uni-stuttgart.de/data/ims_emoint)
+
+
+
