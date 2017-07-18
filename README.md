@@ -59,13 +59,11 @@ Then you need to to the following steps <br />
    A full and more detailed example how to use our system can be seen in the `run_full.sh` script. 
 
 ## Citation info
- +
- +
- +If you use the code or the created feature norms, please [cite our paper](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017)
+If you use the code or the created feature norms, please [cite our paper](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017)
  
 ## Contact info
-Contact: maximilian.koeper A ims.uni-stuttgart.de
-[University Homepage](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/koepermn/index.en.html)
+Contact: maximilian.koeper A ims.uni-stuttgart.de  <br />
+[University Homepage](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/koepermn/index.en.html)  <br />
 [Project Homepage](http://www.ims.uni-stuttgart.de/data/ims_emoint)
 
 
