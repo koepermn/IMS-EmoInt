@@ -9,10 +9,10 @@ This repository contains the IMS System submission for the WASSA-2017 Shared Tas
 
 ## -- Requirements:
 
-1] You need to have **weka** installed
+1] We make use of **weka** for extracting baseline features and performing the random forest regression
 http://www.cs.waikato.ac.nz/ml/weka/
 
-2] We use **Keras** with **Thenao** backend for our Regression feature
+2] We use **Keras** with **Thenao** backend for our Regression feature base on embeddings
 
 https://keras.io/
 http://deeplearning.net/software/theano/
@@ -20,7 +20,7 @@ http://deeplearning.net/software/theano/
 3] We need **Lemma** and **Part-of-Speech** tags, these were obtained using the **TweetNLP**
 Download: http://www.cs.cmu.edu/~ark/TweetNLP/ (we used ark-tweet-nlp-0.3.2) 
 
-4] Parts of the features were created by the Baseline System (**Affective Tweets**)
+4] Some features were created by the Baseline System (**Affective Tweets**), which is an additional weka package
 https://github.com/felipebravom/AffectiveTweets
 
 5] The **Automatically Extended Norms ** (created by us) are available for download here (65MB):
@@ -33,7 +33,7 @@ Assuming you want to use IMS to predict intensity prediction for a given input f
 We provide a full pipeline for the example in the folder:
 `run_through_example/anger_example/anger_plain.txt`
 Note that you need to ajdust multiple paths with respect to the required tools (TwitterNLP, weka, ...) according to your local machine.
-Then you need to to the following steps <br />
+Then you need to do the following steps <br />
 ######  1) Parse the input file <br />
   - using a plain text file you can run `scripts/run_LemmaPOS.sh`
   - This will transform a one sentence/tweet per line format into a one word per line format
