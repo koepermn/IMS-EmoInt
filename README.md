@@ -27,16 +27,18 @@ http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint
 
 ## Example Usage:
 
-Aussming you want to use IMS to predict intensity prediction for a given input file.
+Assuming you want to use IMS to predict intensity prediction for a given input file.
 We provide a full pipeline for the example in the folder:
 `run_through_example/anger_example/anger_plain.txt`
-Note that you need to ajdust all the paths with respect to the required tools (TwitterNLP, weka, ...).
+Note that you need to ajdust multiple paths with respect to the required tools (TwitterNLP, weka, ...) according to your local machine.
 Then you need to to the following steps <br />
 ######  1) Parse the input file <br />
   - using a plain text file you can run `scripts/run_LemmaPOS.sh`
+  - This will transform a one sentence/tweet per line format into a one word per line format
     
 ###### 2) Run the CNN-LSTM Regression model <br />
   - The scripts trains one model per emotion for the given test file
+  - By default we rely on the official training data for training
   - Note that we provide here only a subset of our vectors 
   - _keras_regression/twitter_sgns_subset.txt.gz_ covers the shared task vocabulary
   - vectors are in word2vec format (can be gz, txt or binary)
@@ -44,9 +46,13 @@ Then you need to to the following steps <br />
      
 ###### 3) Create an Inputfile for weka <br/>
   - this can be done using the `scripts/createarff.jar` (fulll code `scripts/createarff_java/`)
+  - This step combines the previous steps
   - Run `java -jar createarff.jar <parsedFile> <inputfile w.Ratings> ratings/Ratings.csv.gz <CNN-LSTM output>`
-  
-###### 4) Run wekas Random Forest <br />
+###### 4) Add Baseline features from Affective tweets <br/>
+ - Using the GUI or the command line we add the features from AffectiveTweets
+ - We apply default settings of `TweetToSentiStrengthFeatureVector` & `TweetToLexiconFeatureVector`
+   
+###### 5) Run wekas Random Forest <br />
  - `scripts/run_RandomForest_eval-only.sh` or `scripts/run_RandomForest_save-predictions.sh`
  - To apply the script link to the folder from the training (arff) files (`official_train_arff/`)
    A full and more detailed example how to use our system can be seen in the `run_full.sh` script. 
