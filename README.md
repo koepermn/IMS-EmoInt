@@ -40,9 +40,10 @@ Then you need to to the following steps <br />
    
 **2) Run the CNN-LSTM Regression model** <br />
   - The scripts trains one model per emotion for the given test file
-  - Note that we provide here only a subset of our vectors
+  - Note that we provide here only a subset of our vectors 
   - _keras_regression/twitter_sgns_subset.txt.gz_ covers the shared task vocabulary
-  - For further processing we create one file containing all the predictions
+  - vectors are in word2vec format (can be gz, txt or binary)
+  - The output of the regression is a single file per training emotion, for further processing we create one file containing    all four predictions by using _paste anger.txt. fear.txt. joy.txt sadness.txt  > afjs.txt_
    <br />
    
 **3) Create an Inputfile for weka** <br/>
