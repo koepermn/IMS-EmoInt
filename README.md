@@ -1,7 +1,8 @@
 # IMS-EmoInt
 This repository contains the IMS System submission for the WASSA-2017 Shared Task on Emotion Intensity (EmoInt)
 
-![image](logo.png = 250x)
+
+<a href="url"><img src="https://github.com/koepermn/IMS-EmoInt/blob/master/logo.png" align="center" height="48" width="48" ></a>
 
 **Requirements**:
 
