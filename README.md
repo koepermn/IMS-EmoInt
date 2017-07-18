@@ -6,7 +6,7 @@ This repository contains the IMS System submission for the WASSA-2017 Shared Tas
 </p>
 
 
-**Requirements**:
+## Requirements:
 
 1] You need to have weka installed
 http://www.cs.waikato.ac.nz/ml/weka/
@@ -27,18 +27,18 @@ http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint
 
 
  <br />
--- Example Usage ---
+## -- Example Usage ---
 
 Aussming you want to use IMS to predict intensity prediction for a given input file.
 We provide a full pipeline for the example in the folder:
 _run_through_example/anger_example/anger_plain.txt_
 Note that you need to ajdust all the paths with respect to the required tools (TwitterNLP, weka, ...).
 Then you need to to the following steps <br />
-**1) *Parse the input file*** <br />
+######1) Parse the input file <br />
   - using a plain text file you can run _scripts/run_LemmaPOS.sh_
    <br />
    
-**2) Run the CNN-LSTM Regression model** <br />
+######2) Run the CNN-LSTM Regression model <br />
   - The scripts trains one model per emotion for the given test file
   - Note that we provide here only a subset of our vectors 
   - _keras_regression/twitter_sgns_subset.txt.gz_ covers the shared task vocabulary
@@ -46,12 +46,12 @@ Then you need to to the following steps <br />
   - The output of the regression is a single file per training emotion, for further processing we create one file containing    all four predictions by using _paste anger.txt. fear.txt. joy.txt sadness.txt  > afjs.txt_
    <br />
    
-**3) Create an Inputfile for weka** <br/>
+######3) Create an Inputfile for weka <br/>
   - this can be done using the _scripts/createarff.jar_ (fulll code _scripts/createarff_java/_)
   - Run _java -jar createarff.jar <parsedFile> <inputfile w.Ratings> ratings/Ratings.csv.gz <CNN-LSTM output>_
    <br /> 
 
-**4) Run wekas Random Forest** <br />
+######4) Run wekas Random Forest <br />
  - _scripts/run_RandomForest_eval-only.sh_ or _scripts/run_RandomForest_save-predictions.sh_
  - To apply the script link to the folder from the training (arff) files (_official_train_arff/_)
     <br />
