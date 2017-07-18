@@ -25,8 +25,6 @@ https://github.com/felipebravom/AffectiveTweets
 5] The extended ratings (created by us) are available for download here (65MB):
 http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint_norms.tar.gz
 
-
- <br />
 ## Example Usage:
 
 Aussming you want to use IMS to predict intensity prediction for a given input file.
