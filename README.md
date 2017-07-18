@@ -62,7 +62,7 @@ Then you need to to the following steps <br />
 If you use the code or the created feature norms, please [cite our paper](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017)
  
 ## Contact info
-Contact: maximilian.koeper A ims.uni-stuttgart.de  <br />
+Contact: maximilian.koeper AT ims.uni-stuttgart.de  <br />
 [University Homepage](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/koepermn/index.en.html)  <br />
 [Project Homepage](http://www.ims.uni-stuttgart.de/data/ims_emoint)
 
