@@ -56,7 +56,8 @@ Then you need to to the following steps <br />
 ###### 5) Run wekas Random Forest <br />
  - `scripts/run_RandomForest_eval-only.sh` or `scripts/run_RandomForest_save-predictions.sh`
  - To apply the script link to the folder from the training (arff) files (`official_train_arff/`)
-   A full and more detailed example how to use our system can be seen in the `run_full.sh` script. 
+  <br />
+   A full and more detailed description for using IMS emotion prediction can can be seen in the `run_full.sh` script. 
 
 ## Citation info
 If you use the code or the created feature norms, please [cite our paper](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017)
