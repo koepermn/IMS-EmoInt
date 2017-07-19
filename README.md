@@ -23,7 +23,7 @@ Download: http://www.cs.cmu.edu/~ark/TweetNLP/ (we used ark-tweet-nlp-0.3.2)
 4] Some features were created by the Baseline System (**Affective Tweets**), which is an additional weka package
 https://github.com/felipebravom/AffectiveTweets
 
-5] The **Automatically Extended Norms ** (created by us) are available for download here (65MB):
+5] **The Automatically Extended Norms** (created by us) are available for download here (65MB):
 http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint_norms.tar.gz
 this file contains exntendes resources of affective norms and emotion lexicons
 
