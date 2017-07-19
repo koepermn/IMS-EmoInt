@@ -2,6 +2,8 @@
 This repository contains the IMS System submission for the WASSA-2017 Shared Task on Emotion Intensity (EmoInt)<br />
 **Task:** Given a **tweet** and an **emotion** x {anger,fear,joy,sadness}, determine the intensity or degree of emotion X felt by the speaker -- a **real-valued score between 0 and 1**.
 
+[The offical shared task paper](http://www.romanklinger.de/publications/emo_ims_kkk.pdf)
+
 <p align="center">
 <a href="url"><img src="https://github.com/koepermn/IMS-EmoInt/blob/master/logo.png" align="center" height="250" width="250" ></a>
 </p>
