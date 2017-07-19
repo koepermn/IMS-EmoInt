@@ -63,7 +63,7 @@ Then you need to do the following steps <br />
    A full and more detailed description for using IMS emotion prediction can can be seen in the `run_full.sh` script. 
 
 ## Citation info
-If you use the code or the created feature norms, please [cite our paper](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017)
+If you use the code or the created feature norms, please [cite our paper (Bibtex](http://www.romanklinger.de/publications/2017_bib.html#Koeper2017) [PDF](http://www.romanklinger.de/publications/emo_ims_kkk.pdf)
  
 ## Contact info
 Contact: maximilian.koeper AT ims.uni-stuttgart.de  <br />
