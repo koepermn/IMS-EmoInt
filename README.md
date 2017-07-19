@@ -68,7 +68,7 @@ If you use the code or the created feature norms, please [cite our paper (Bibtex
 ## Contact info
 Contact: maximilian.koeper AT ims.uni-stuttgart.de  <br />
 
-[Project Homepage](http://www.ims.uni-stuttgart.de/data/ims_emoint)
+[Project Homepage](http://www.ims.uni-stuttgart.de/data/ims_emoint)<br />
 [University Homepage Maximilian](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/koepermn/index.en.html)  <br />
 [University Homepage Roman](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/klingern/)  <br />
 [University Homepage Evgeny](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/kimey)  <br />
