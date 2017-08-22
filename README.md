@@ -27,9 +27,7 @@ https://github.com/felipebravom/AffectiveTweets
 
 5] **The Automatically Extended Norms** (created by us) are available for download here (65MB):
 http://www.ims.uni-stuttgart.de/forschung/ressourcen/experiment-daten/IMS_emoint_norms.tar.gz
-this file contains exntendes resources of affective norms and emotion lexicons.
-
-*Note: if you use thes extended norms ratings please cite our work **and** the orgininal resource (see paper for details)*
+this file contains exntendes resources of affective norms and emotion lexicons.  <br /> *Note: if you use the extended norms  please cite our work **and** the orgininal resource (see paper for reference details)*
 
 ## Example Usage:
 
